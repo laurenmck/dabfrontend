@@ -25,13 +25,13 @@ function App() {
                     {/* If any route mismatches the upper
           route endpoints then, redirect triggers
           and redirects app to home component with to="/" */}
-                    <Route path="/dorms" element={<PrivateRoute><Dorms/></PrivateRoute>} />
-                    <Route path="/recommend" element={<PrivateRoute><Recommendation/></PrivateRoute>} />
-                    <Route path="/profile" element={<PrivateRoute><Profile/></PrivateRoute>}/>
-                    <Route path="/dorm-listing/:id" element={<PrivateRoute><DormListing/></PrivateRoute>} />
-                    <Route path="/login" element={<Login/>} />
+                    <Route path="dabfrontend/dorms" element={<PrivateRoute><Dorms/></PrivateRoute>} />
+                    <Route path="dabfrontend/recommend" element={<PrivateRoute><Recommendation/></PrivateRoute>} />
+                    <Route path="dabfrontend/profile" element={<PrivateRoute><Profile/></PrivateRoute>}/>
+                    <Route path="dabfrontend/dorm-listing/:id" element={<PrivateRoute><DormListing/></PrivateRoute>} />
+                    <Route path="dabfrontend/login" element={<Login/>} />
                     <Route path="*" element={<Navigate to={"/"} replace />} />
-                    <Route path="/recommendation-results" element={<Results/>}/>
+                    <Route path="dabfrontend/recommendation-results" element={<Results/>}/>
                 </Routes>
             </HashRouter>
         </div>
