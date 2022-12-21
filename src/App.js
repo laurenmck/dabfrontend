@@ -1,6 +1,6 @@
 import './App.css';
 
-import { BrowserRouter as Router, Routes, Route, Navigate,} from "react-router-dom";
+import { HashRouter, Routes, Route, Navigate } from "react-router-dom";
 import PrivateRoute from './Components/private-router';
 import About from './Components/about';
 import Dorms from './Components/dorms';
@@ -14,7 +14,7 @@ import Results from './Components/recommendation-results';
 function App() {
     return (
         <div className="App">
-            <Router>
+            <HashRouter>
                 <Routes>
                     <Route path="/" element={<Home/>} />
 
@@ -33,7 +33,7 @@ function App() {
                     <Route path="*" element={<Navigate to={"/"} replace />} />
                     <Route path="/recommendation-results" element={<Results/>}/>
                 </Routes>
-            </Router>
+            </HashRouter>
         </div>
     );
 }
