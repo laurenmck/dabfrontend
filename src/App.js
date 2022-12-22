@@ -21,7 +21,7 @@ function App() {
                     {/* This route is for about component
           with exact path "/about", in component
           props we passes the imported component*/}
-                    <Route path="/about" element={<About/>} />
+                    <Route path="dabfrontend/about" element={<About/>} />
                     {/* If any route mismatches the upper
           route endpoints then, redirect triggers
           and redirects app to home component with to="/" */}
