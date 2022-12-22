@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/dabfrontend/static/css/main.1a78891a.css",
-    "main.js": "/dabfrontend/static/js/main.e9cdeaa7.js",
+    "main.js": "/dabfrontend/static/js/main.761dc29a.js",
     "static/js/787.e9ea1ee5.chunk.js": "/dabfrontend/static/js/787.e9ea1ee5.chunk.js",
     "static/media/3.jpg": "/dabfrontend/static/media/3.c60ee1881558c7053d74.jpg",
     "static/media/2.jpg": "/dabfrontend/static/media/2.84f89a06c2ff0b589db7.jpg",
@@ -48,11 +48,11 @@
     "index.html": "/dabfrontend/index.html",
     "static/media/arrow-right.svg": "/dabfrontend/static/media/arrow-right.341ca7d832c9728083ffdd38d902cfbe.svg",
     "main.1a78891a.css.map": "/dabfrontend/static/css/main.1a78891a.css.map",
-    "main.e9cdeaa7.js.map": "/dabfrontend/static/js/main.e9cdeaa7.js.map",
+    "main.761dc29a.js.map": "/dabfrontend/static/js/main.761dc29a.js.map",
     "787.e9ea1ee5.chunk.js.map": "/dabfrontend/static/js/787.e9ea1ee5.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.1a78891a.css",
-    "static/js/main.e9cdeaa7.js"
+    "static/js/main.761dc29a.js"
   ]
 }
